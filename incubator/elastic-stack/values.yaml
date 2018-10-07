@@ -4,7 +4,7 @@
 
 kibana:
   env:
-    ELASTICSEARCH_URL: http://http.default.svc.cluster.local:9200
+    ELASTICSEARCH_URL: http://elastic-stack-elasticsearch-discovery.elastic-stack:9200
 
 logstash:
   enabled: true
